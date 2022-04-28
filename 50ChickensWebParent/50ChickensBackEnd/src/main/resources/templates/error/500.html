@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head th:replace="fragments :: page_head('Error - 50 Chickens Admin','none')" />
+</head>
+
+<body>
+    <div th:replace="navigation :: menu"></div>
+    <div class="container-fluid">
+        <div class="m-3">
+            <h2>Xin lỗi, server gặp vấn đề khi nhận yêu cầu của bạn.</h2>
+        </div>
+    </div>
+    <div th:replace="fragments :: footer"></div>
+</body>
+
+</html>
